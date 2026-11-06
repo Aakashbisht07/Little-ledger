@@ -1,0 +1,36 @@
+{
+  "model_version": "v2.1",
+  "training_timestamp": "2026-10-29 17:58:04",
+  "regressor_name": "GradientBoostingRegressor V2.1",
+  "observation_count": 5,
+  "train_samples": 4,
+  "test_samples": 1,
+  "train_period": "2026-06 to 2026-09",
+  "test_period": "2026-10 to 2026-10",
+  "feature_names": [
+    "month_idx",
+    "month_of_year",
+    "quarter",
+    "lag_1_spend",
+    "lag_2_spend",
+    "lag_3_spend",
+    "rolling_mean_3",
+    "rolling_std_3",
+    "monthly_budget"
+  ],
+  "feature_importances": {
+    "month_idx": 0.382,
+    "month_of_year": 0.2196,
+    "quarter": 0.0198,
+    "lag_1_spend": 0.0689,
+    "lag_2_spend": 0.2479,
+    "lag_3_spend": 0.0015,
+    "rolling_mean_3": 0.0382,
+    "rolling_std_3": 0.0221,
+    "monthly_budget": 0.0
+  },
+  "r2_score": 1.0,
+  "mae": 10343.45,
+  "validation_method": "Chronological Purged Train/Test Split (75/25)",
+  "status": "VALIDATED"
+}
